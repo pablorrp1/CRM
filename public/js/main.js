@@ -1243,6 +1243,89 @@
     } catch (error) {
         console.log(error);
     }
+    try {
+        //pie chart
+        var ctx = document.getElementById("pieChart1");
+        if (ctx) {
+            ctx.height = 200;
+            var myChart = new Chart(ctx, {
+                type: "pie",
+                data: {
+                    datasets: [
+                        {
+                            data: [60, 25, 15],
+                            backgroundColor: [
+                                "rgba(94, 255, 96,0.9)",
+                                "rgba(94, 255, 96,0.7)",
+                                "rgba(94, 255, 96,0.5)",
+                                "rgba(94, 255, 96,0.15)"
+                            ],
+                            hoverBackgroundColor: [
+                                "rgba(94, 255, 96,0.9)",
+                                "rgba(94, 255, 96,0.7)",
+                                "rgba(94, 255, 96,0.5)",
+                                "rgba(94, 255, 96,0.15)"
+                            ]
+                        }
+                    ],
+                    labels: ["M. Anuales", "M. Mensuales", "M. Diarias"]
+                },
+                options: {
+                    legend: {
+                        position: "top",
+                        labels: {
+                            fontFamily: "Poppins"
+                        }
+                    },
+                    responsive: true
+                }
+            });
+        }
+    } catch (error) {
+        console.log(error);
+    }
+
+    try {
+        //pie chart
+        var ctx = document.getElementById("pieChart2");
+        if (ctx) {
+            ctx.height = 200;
+            var myChart = new Chart(ctx, {
+                type: "pie",
+                data: {
+                    datasets: [
+                        {
+                            data: [55, 20, 15, 10],
+                            backgroundColor: [
+                                "rgba(94, 255, 96,0.9)",
+                                "rgba(94, 255, 96,0.7)",
+                                "rgba(94, 255, 96,0.5)",
+                                "rgba(94, 255, 96,0.15)"
+                            ],
+                            hoverBackgroundColor: [
+                                "rgba(94, 255, 96,0.9)",
+                                "rgba(94, 255, 96,0.7)",
+                                "rgba(94, 255, 96,0.5)",
+                                "rgba(94, 255, 96,0.15)"
+                            ]
+                        }
+                    ],
+                    labels: ["Salarios","Infraestructura", "Reparacion y Mantenimiento", "Reinversión"]
+                },
+                options: {
+                    legend: {
+                        position: "top",
+                        labels: {
+                            fontFamily: "Poppins"
+                        }
+                    },
+                    responsive: true
+                }
+            });
+        }
+    } catch (error) {
+        console.log(error);
+    }
 
     try {
         // polar chart

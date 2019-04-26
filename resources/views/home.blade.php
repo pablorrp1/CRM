@@ -13,6 +13,7 @@
 <div class="row m-t-25">
     <div class="col-sm-6 col-lg-3">
         <div class="overview-item overview-item--c4">
+            <a href="/usuarios">
             <div class="overview__inner">
                 <div class="overview-box clearfix">
                     <div class="icon">
@@ -27,10 +28,12 @@
                     <canvas id="widgetChart1"></canvas>
                 </div>
             </div>
+            </a>
         </div>
     </div>
     <div class="col-sm-6 col-lg-3">
         <div class="overview-item overview-item--c4">
+            <a href="/membresias">
             <div class="overview__inner">
                 <div class="overview-box clearfix">
                     <div class="icon">
@@ -45,6 +48,7 @@
                     <canvas id="widgetChart2"></canvas>
                 </div>
             </div>
+            </a>
         </div>
     </div>
     <div class="col-sm-6 col-lg-3">
@@ -67,6 +71,7 @@
     </div>
     <div class="col-sm-6 col-lg-3">
         <div class="overview-item overview-item--c4">
+            <a href="/finanzas">
             <div class="overview__inner">
                 <div class="overview-box clearfix">
                     <div class="icon">
@@ -81,6 +86,7 @@
                     <canvas id="widgetChart4"></canvas>
                 </div>
             </div>
+            </a>
         </div>
     </div>
 </div>

@@ -23,10 +23,18 @@ Route::get('/usuarios', function () {
     return view('usuarios');
 });
 
-Route::get('/usuario/{name}/{state}', function ($name,$state) {
-    return view('usuario',array("name"=>$name,"state"=>$state));
+Route::get('/usuario/{name}/{state}', function ($name, $state) {
+    return view('usuario', array("name" => $name, "state" => $state, "points" => random_int(1, 100)));
 });
 
 Route::get('/estaciones', function () {
     return view('estaciones');
+});
+
+Route::get('/membresias', function () {
+    return view('membresias');
+});
+
+Route::get('/finanzas', function () {
+    return view('finanzas');
 });

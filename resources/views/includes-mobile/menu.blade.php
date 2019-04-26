@@ -11,6 +11,16 @@
                     <i class="fas fa-map-marker"></i>Estaciones
                 </a>
             </li>
+            <li>
+                <a href="/membresias">
+                    <i class="fas fa-star"></i>Membresias
+                </a>
+            </li>
+            <li>
+                <a href="/finanzas">
+                    <i class="fas fa-usd"></i>Finanzas
+                </a>
+            </li>
             <!--
              <li>
                 <a href="map.html">
